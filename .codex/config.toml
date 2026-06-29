@@ -1,0 +1,3 @@
+[mcp_servers.shopline-developer-mcp]
+command = "npx"
+args = ["-y", "@shoplineos/shopline-developer-mcp"]
