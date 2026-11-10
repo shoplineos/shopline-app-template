@@ -11,5 +11,29 @@
   "author": "SHOPLINE",
   "devDependencies": {
     "@shoplineos/cli": "latest"
+  },
+  "dependenciesMeta": {
+    "esbuild": {
+      "built": true
+    },
+    "sqlite3": {
+      "built": true
+    },
+    "ejs": {
+      "built": false
+    },
+    "javascript-obfuscator": {
+      "built": false
+    }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sqlite3"
+    ],
+    "ignoredBuiltDependencies": [
+      "ejs",
+      "javascript-obfuscator"
+    ]
   }
 }

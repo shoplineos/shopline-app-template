@@ -1,0 +1,11 @@
+packages:
+  - app
+  - web
+  - extensions/*
+allowBuilds:
+  esbuild: true
+  sqlite3: true
+  ejs: false
+  javascript-obfuscator: false
+autoInstallPeers: true
+shamefullyHoist: true
